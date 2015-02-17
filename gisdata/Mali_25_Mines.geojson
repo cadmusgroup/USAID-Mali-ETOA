@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Name": "Gounkoto", "NearestTown": "Kéniéba", "Source": "http:\/\/www.randgoldresources.com\/randgold\/content\/en\/annual-report-2012-loulo-gounkoto-gold-mine-complex", "Latitude": 12.875275, "Longitude": -11.392142, "marker-symbol": "oil-well", "ORIG_FID": 1 }, "geometry": { "type": "Point", "coordinates": [ -11.392142, 12.875 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Name": "Kalana", "NearestTown": "Kalana", "Source": "http:\/\/www.avnelgold.com\/wp-content\/uploads\/IR\/AVK-Investor-Presentation.pdf", "Latitude": 10.799668, "Longitude": -8.197521, "marker-symbol": "oil-well", "ORIG_FID": 2 }, "geometry": { "type": "Point", "coordinates": [ -8.198, 10.799668 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "Name": "Loulo", "NearestTown": "Sitakili", "Source": "http:\/\/www.randgoldresources.com\/randgold\/content\/en\/annual-report-2012-loulo-gounkoto-gold-mine-complex", "Latitude": 13.085080, "Longitude": -11.414723, "marker-symbol": "oil-well", "ORIG_FID": 3 }, "geometry": { "type": "Point", "coordinates": [ -11.414723, 13.08508 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "Name": "Morila", "NearestTown": "Sanso", "Source": "https:\/\/en.wikipedia.org\/wiki\/Morila_Gold_Mine", "Latitude": 11.680648, "Longitude": -6.849510, "marker-symbol": "oil-well", "ORIG_FID": 4 }, "geometry": { "type": "Point", "coordinates": [ -6.84951, 11.680648 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "Name": "Sadiola", "NearestTown": "Sadiola", "Source": "https:\/\/en.wikipedia.org\/wiki\/Sadiola_Gold_Mine", "Latitude": 13.894327, "Longitude": -11.677622, "marker-symbol": "oil-well", "ORIG_FID": 5 }, "geometry": { "type": "Point", "coordinates": [ -11.677622, 13.894327 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "Name": "Syama", "NearestTown": "Fourou", "Source": "http:\/\/www.resolute-ltd.com.au\/operations\/syama\/", "Latitude": 10.789466, "Longitude": -6.071346, "marker-symbol": "oil-well", "ORIG_FID": 6 }, "geometry": { "type": "Point", "coordinates": [ -6.071346, 10.789466 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "Name": "Tabakoto", "NearestTown": "Kéniéba", "Source": "http:\/\/www.endeavourmining.com\/s\/Tabakoto.asp", "Latitude": 12.946721, "Longitude": -11.191599, "marker-symbol": "oil-well", "ORIG_FID": 7 }, "geometry": { "type": "Point", "coordinates": [ -11.191599, 12.946721 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "Name": "Yatela", "NearestTown": "Sadiola", "Source": "https:\/\/en.wikipedia.org\/wiki\/Yatela_Mine", "Latitude": 14.084467, "Longitude": -11.753139, "marker-symbol": "oil-well", "ORIG_FID": 8 }, "geometry": { "type": "Point", "coordinates": [ -11.753139, 14.084467 ] } }
+]
+}
