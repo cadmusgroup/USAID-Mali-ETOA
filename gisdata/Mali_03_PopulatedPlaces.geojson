@@ -17,7 +17,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Goundam", 
-                "ORIG_FID": 1, 
                 "POP_MAX": 8456, 
                 "marker-symbol": "town"
             }, 
@@ -34,7 +33,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Aguelhok", 
-                "ORIG_FID": 2, 
                 "POP_MAX": 9000, 
                 "marker-symbol": "town"
             }, 
@@ -51,7 +49,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Bourem", 
-                "ORIG_FID": 3, 
                 "POP_MAX": 30000, 
                 "marker-symbol": "town"
             }, 
@@ -68,7 +65,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Kati", 
-                "ORIG_FID": 4, 
                 "POP_MAX": 66895, 
                 "marker-symbol": "town"
             }, 
@@ -85,7 +81,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Banamba", 
-                "ORIG_FID": 5, 
                 "POP_MAX": 30591, 
                 "marker-symbol": "town"
             }, 
@@ -102,7 +97,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "Kangaba", 
-                "ORIG_FID": 6, 
                 "POP_MAX": 17232, 
                 "marker-symbol": "town"
             }, 
@@ -119,7 +113,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Nioro du Sahel", 
-                "ORIG_FID": 7, 
                 "POP_MAX": 14421, 
                 "marker-symbol": "town"
             }, 
@@ -136,7 +129,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Bafoulabe", 
-                "ORIG_FID": 8, 
                 "POP_MAX": 26823, 
                 "marker-symbol": "town"
             }, 
@@ -153,7 +145,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Satadougou", 
-                "ORIG_FID": 9, 
                 "POP_MAX": 706, 
                 "marker-symbol": "town"
             }, 
@@ -170,7 +161,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Yelimane", 
-                "ORIG_FID": 10, 
                 "POP_MAX": 988, 
                 "marker-symbol": "town"
             }, 
@@ -187,7 +177,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Kita", 
-                "ORIG_FID": 11, 
                 "POP_MAX": 46435, 
                 "marker-symbol": "town"
             }, 
@@ -204,7 +193,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Koutiala", 
-                "ORIG_FID": 12, 
                 "POP_MAX": 104927, 
                 "marker-symbol": "town"
             }, 
@@ -221,7 +209,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "Sikasso", 
-                "ORIG_FID": 13, 
                 "POP_MAX": 225753, 
                 "marker-symbol": "town"
             }, 
@@ -238,7 +225,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Bougouni", 
-                "ORIG_FID": 14, 
                 "POP_MAX": 35450, 
                 "marker-symbol": "town"
             }, 
@@ -255,7 +241,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Markala", 
-                "ORIG_FID": 15, 
                 "POP_MAX": 53738, 
                 "marker-symbol": "town"
             }, 
@@ -272,7 +257,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Sokolo", 
-                "ORIG_FID": 16, 
                 "POP_MAX": 4374, 
                 "marker-symbol": "town"
             }, 
@@ -289,7 +273,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "San", 
-                "ORIG_FID": 17, 
                 "POP_MAX": 41386, 
                 "marker-symbol": "town"
             }, 
@@ -306,7 +289,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Taoudenni", 
-                "ORIG_FID": 18, 
                 "POP_MAX": 3019, 
                 "marker-symbol": "town"
             }, 
@@ -323,7 +305,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Araouane", 
-                "ORIG_FID": 19, 
                 "POP_MAX": 4026, 
                 "marker-symbol": "town"
             }, 
@@ -340,7 +321,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Tessalit", 
-                "ORIG_FID": 20, 
                 "POP_MAX": 6000, 
                 "marker-symbol": "town"
             }, 
@@ -357,7 +337,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Menaka", 
-                "ORIG_FID": 21, 
                 "POP_MAX": 9110, 
                 "marker-symbol": "town"
             }, 
@@ -374,7 +353,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Nara", 
-                "ORIG_FID": 22, 
                 "POP_MAX": 18459, 
                 "marker-symbol": "town"
             }, 
@@ -391,7 +369,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Koulikoro", 
-                "ORIG_FID": 23, 
                 "POP_MAX": 23919, 
                 "marker-symbol": "town"
             }, 
@@ -408,7 +385,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "Mopti", 
-                "ORIG_FID": 24, 
                 "POP_MAX": 108456, 
                 "marker-symbol": "town"
             }, 
@@ -425,7 +401,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "Gao", 
-                "ORIG_FID": 25, 
                 "POP_MAX": 116967, 
                 "marker-symbol": "town"
             }, 
@@ -442,7 +417,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "Kayes", 
-                "ORIG_FID": 26, 
                 "POP_MAX": 77207, 
                 "marker-symbol": "town"
             }, 
@@ -459,7 +433,6 @@
             "properties": {
                 "FEATURECLA": "Admin-1 capital", 
                 "NAME": "Segou", 
-                "ORIG_FID": 27, 
                 "POP_MAX": 122952, 
                 "marker-symbol": "town"
             }, 
@@ -476,7 +449,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Timbuktu", 
-                "ORIG_FID": 28, 
                 "POP_MAX": 68872, 
                 "marker-symbol": "town"
             }, 
@@ -493,7 +465,6 @@
             "properties": {
                 "FEATURECLA": "Admin-0 capital", 
                 "NAME": "Bamako", 
-                "ORIG_FID": 29, 
                 "POP_MAX": 1494000, 
                 "marker-symbol": "town"
             }, 
@@ -510,7 +481,6 @@
             "properties": {
                 "FEATURECLA": "Populated place", 
                 "NAME": "Djenne", 
-                "ORIG_FID": 30, 
                 "POP_MAX": 32944, 
                 "marker-symbol": "town"
             }, 

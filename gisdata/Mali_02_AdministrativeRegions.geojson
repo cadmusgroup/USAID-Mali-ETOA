@@ -1125,9 +1125,6 @@
             "properties": {
                 "EventsViolent": 48, 
                 "Fatalities": 67, 
-                "ORIG_FID": 1, 
-                "Shape_Area": 43.564711, 
-                "Shape_Length": 32.98363, 
                 "name": "Timbuktu"
             }, 
             "type": "Feature"
@@ -1803,9 +1800,6 @@
             "properties": {
                 "EventsViolent": 35, 
                 "Fatalities": 170, 
-                "ORIG_FID": 2, 
-                "Shape_Area": 12.600862, 
-                "Shape_Length": 17.528847, 
                 "name": "Kidal"
             }, 
             "type": "Feature"
@@ -2449,9 +2443,6 @@
             "properties": {
                 "EventsViolent": 40, 
                 "Fatalities": 87, 
-                "ORIG_FID": 3, 
-                "Shape_Area": 14.67875, 
-                "Shape_Length": 18.297556, 
                 "name": "Gao"
             }, 
             "type": "Feature"
@@ -2543,9 +2534,6 @@
             "properties": {
                 "EventsViolent": 20, 
                 "Fatalities": 49, 
-                "ORIG_FID": 4, 
-                "Shape_Area": 0.017759, 
-                "Shape_Length": 0.484244, 
                 "name": "Bamako"
             }, 
             "type": "Feature"
@@ -5285,9 +5273,6 @@
             "properties": {
                 "EventsViolent": 7, 
                 "Fatalities": 19, 
-                "ORIG_FID": 5, 
-                "Shape_Area": 10.28578, 
-                "Shape_Length": 17.834903, 
                 "name": "Kayes"
             }, 
             "type": "Feature"
@@ -7691,9 +7676,6 @@
             "properties": {
                 "EventsViolent": 0, 
                 "Fatalities": 2, 
-                "ORIG_FID": 6, 
-                "Shape_Area": 5.874848, 
-                "Shape_Length": 17.667561, 
                 "name": "Sikasso"
             }, 
             "type": "Feature"
@@ -8601,9 +8583,6 @@
             "properties": {
                 "EventsViolent": 11, 
                 "Fatalities": 42, 
-                "ORIG_FID": 7, 
-                "Shape_Area": 6.882245, 
-                "Shape_Length": 15.145044, 
                 "name": "Mopti"
             }, 
             "type": "Feature"
@@ -9683,9 +9662,6 @@
             "properties": {
                 "EventsViolent": 3, 
                 "Fatalities": 25, 
-                "ORIG_FID": 8, 
-                "Shape_Area": 5.135769, 
-                "Shape_Length": 13.512583, 
                 "name": "S\u00e9gou"
             }, 
             "type": "Feature"
@@ -11231,9 +11207,6 @@
             "properties": {
                 "EventsViolent": 2, 
                 "Fatalities": 2, 
-                "ORIG_FID": 9, 
-                "Shape_Area": 7.641686, 
-                "Shape_Length": 19.119161, 
                 "name": "Koulikoro"
             }, 
             "type": "Feature"

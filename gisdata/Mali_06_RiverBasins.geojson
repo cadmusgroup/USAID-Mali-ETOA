@@ -10121,9 +10121,6 @@
             "properties": {
                 "AREA_SQKM": 443975.4, 
                 "BASIN_ID": 47262.0, 
-                "ORIG_FID": 1, 
-                "Shape_Area": 14.444778, 
-                "Shape_Length": 28.751867, 
                 "fill": "#00FFFF", 
                 "fill-opacity": "0.3", 
                 "stroke": "#000080"
@@ -10249,9 +10246,6 @@
             "properties": {
                 "AREA_SQKM": 2098640.1, 
                 "BASIN_ID": 90857.0, 
-                "ORIG_FID": 2, 
-                "Shape_Area": 0.001057, 
-                "Shape_Length": 0.212434, 
                 "fill": "#00FFFF", 
                 "fill-opacity": "0.3", 
                 "stroke": "#000080"
@@ -37961,9 +37955,6 @@
             "properties": {
                 "AREA_SQKM": 2098640.1, 
                 "BASIN_ID": 90857.0, 
-                "ORIG_FID": 2, 
-                "Shape_Area": 46.574807, 
-                "Shape_Length": 70.465877, 
                 "fill": "#00FFFF", 
                 "fill-opacity": "0.3", 
                 "stroke": "#000080"

@@ -19,7 +19,6 @@
                 "Longitude": -11.392142, 
                 "Name": "Gounkoto", 
                 "NearestTown": "K\u00e9ni\u00e9ba", 
-                "ORIG_FID": 1, 
                 "Source": "http://www.randgoldresources.com/randgold/content/en/annual-report-2012-loulo-gounkoto-gold-mine-complex", 
                 "marker-symbol": "oil-well"
             }, 
@@ -38,7 +37,6 @@
                 "Longitude": -8.197521, 
                 "Name": "Kalana", 
                 "NearestTown": "Kalana", 
-                "ORIG_FID": 2, 
                 "Source": "http://www.avnelgold.com/wp-content/uploads/IR/AVK-Investor-Presentation.pdf", 
                 "marker-symbol": "oil-well"
             }, 
@@ -57,7 +55,6 @@
                 "Longitude": -11.414723, 
                 "Name": "Loulo", 
                 "NearestTown": "Sitakili", 
-                "ORIG_FID": 3, 
                 "Source": "http://www.randgoldresources.com/randgold/content/en/annual-report-2012-loulo-gounkoto-gold-mine-complex", 
                 "marker-symbol": "oil-well"
             }, 
@@ -76,7 +73,6 @@
                 "Longitude": -6.84951, 
                 "Name": "Morila", 
                 "NearestTown": "Sanso", 
-                "ORIG_FID": 4, 
                 "Source": "https://en.wikipedia.org/wiki/Morila_Gold_Mine", 
                 "marker-symbol": "oil-well"
             }, 
@@ -95,7 +91,6 @@
                 "Longitude": -11.677622, 
                 "Name": "Sadiola", 
                 "NearestTown": "Sadiola", 
-                "ORIG_FID": 5, 
                 "Source": "https://en.wikipedia.org/wiki/Sadiola_Gold_Mine", 
                 "marker-symbol": "oil-well"
             }, 
@@ -114,7 +109,6 @@
                 "Longitude": -6.071346, 
                 "Name": "Syama", 
                 "NearestTown": "Fourou", 
-                "ORIG_FID": 6, 
                 "Source": "http://www.resolute-ltd.com.au/operations/syama/", 
                 "marker-symbol": "oil-well"
             }, 
@@ -133,7 +127,6 @@
                 "Longitude": -11.191599, 
                 "Name": "Tabakoto", 
                 "NearestTown": "K\u00e9ni\u00e9ba", 
-                "ORIG_FID": 7, 
                 "Source": "http://www.endeavourmining.com/s/Tabakoto.asp", 
                 "marker-symbol": "oil-well"
             }, 
@@ -152,7 +145,6 @@
                 "Longitude": -11.753139, 
                 "Name": "Yatela", 
                 "NearestTown": "Sadiola", 
-                "ORIG_FID": 8, 
                 "Source": "https://en.wikipedia.org/wiki/Yatela_Mine", 
                 "marker-symbol": "oil-well"
             }, 

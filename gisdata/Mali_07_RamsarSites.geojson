@@ -16,7 +16,6 @@
             }, 
             "properties": {
                 "Label": "Lac Magui", 
-                "ORIG_FID": 1, 
                 "country_en": "Mali", 
                 "marker-color": "#008000", 
                 "marker-symbol": "wetland", 
@@ -36,7 +35,6 @@
             }, 
             "properties": {
                 "Label": "Delta Int\u00e9rieur du Niger", 
-                "ORIG_FID": 2, 
                 "country_en": "Mali", 
                 "marker-color": "#008000", 
                 "marker-symbol": "wetland", 
@@ -56,7 +54,6 @@
             }, 
             "properties": {
                 "Label": "Lac Wegnia", 
-                "ORIG_FID": 3, 
                 "country_en": "Mali", 
                 "marker-color": "#008000", 
                 "marker-symbol": "wetland", 
@@ -76,7 +73,6 @@
             }, 
             "properties": {
                 "Label": "Plaine Inondable du Sourou", 
-                "ORIG_FID": 4, 
                 "country_en": "Mali", 
                 "marker-color": "#008000", 
                 "marker-symbol": "wetland", 

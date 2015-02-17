@@ -582,8 +582,6 @@
             }, 
             "properties": {
                 "Label": "Bafing", 
-                "ORIG_FID": 10, 
-                "Shape_Length": 2.574333, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -848,8 +846,6 @@
             }, 
             "properties": {
                 "Label": "S\u00e9n\u00e9gal", 
-                "ORIG_FID": 11, 
-                "Shape_Length": 1.82986, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -1182,8 +1178,6 @@
             }, 
             "properties": {
                 "Label": "Baoul\u00e9", 
-                "ORIG_FID": 12, 
-                "Shape_Length": 1.575919, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -2100,8 +2094,6 @@
             }, 
             "properties": {
                 "Label": "Baoul\u00e9", 
-                "ORIG_FID": 16, 
-                "Shape_Length": 3.199191, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -2170,8 +2162,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 17, 
-                "Shape_Length": 0.412956, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -3276,8 +3266,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 18, 
-                "Shape_Length": 5.96034, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -3382,8 +3370,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 20, 
-                "Shape_Length": 0.570986, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -3652,8 +3638,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 22, 
-                "Shape_Length": 1.510715, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -4054,8 +4038,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 24, 
-                "Shape_Length": 1.796521, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -4296,8 +4278,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 25, 
-                "Shape_Length": 1.488633, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -5502,8 +5482,6 @@
             }, 
             "properties": {
                 "Label": "Niger", 
-                "ORIG_FID": 26, 
-                "Shape_Length": 7.065935, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -5936,8 +5914,6 @@
             }, 
             "properties": {
                 "Label": "Bani", 
-                "ORIG_FID": 27, 
-                "Shape_Length": 2.406962, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -6166,8 +6142,6 @@
             }, 
             "properties": {
                 "Label": "Bani", 
-                "ORIG_FID": 28, 
-                "Shape_Length": 1.365054, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -6908,8 +6882,6 @@
             }, 
             "properties": {
                 "Label": "Baoul\u00e9", 
-                "ORIG_FID": 29, 
-                "Shape_Length": 4.67658, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -7058,8 +7030,6 @@
             }, 
             "properties": {
                 "Label": "Bakoye", 
-                "ORIG_FID": 30, 
-                "Shape_Length": 1.084483, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -7220,8 +7190,6 @@
             }, 
             "properties": {
                 "Label": "Bago\u00e9", 
-                "ORIG_FID": 31, 
-                "Shape_Length": 1.201417, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
@@ -7262,8 +7230,6 @@
             }, 
             "properties": {
                 "Label": "Bago\u00e9", 
-                "ORIG_FID": 39, 
-                "Shape_Length": 1.00738, 
                 "stroke": "#0080ff"
             }, 
             "type": "Feature"
