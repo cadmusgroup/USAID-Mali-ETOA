@@ -39,22 +39,164 @@
 <h2>
 <a id="data-for-download" class="anchor" href="#data-for-download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data for download</h2>
 
-<table>
+<style>
+.inner {
+  max-width: 1000px;
+}
+.datasetsTable thead {
+    text-align: center;
+}
+.datasetsTable td {
+    vertical-align: middle;
+}
+.datasetsTable img {
+    margin: 0;
+    height: 100px;
+    width: auto;
+}
+</style>
+<table class="datasetsTable">
 <thead>
-<tr>
-<th>Dataset</th>
-<th>Source</th>
-<th>Map</th>
-<th>Download</th>
-</tr>
+    <tr>
+        <th>Dataset</th>
+        <th>Source</th>
+        <th>Map</th>
+        <th>Download</th>
+    </tr>
 </thead>
 <tbody>
-<tr>
-<td>Important wetlands</td>
-<td>Ramsar</td>
-<td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map03_MajorRiversBasinsWetlands.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map03_MajorRiversBasinsWetlands.jpg" alt="Wetlands map"></a></td>
-<td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_07_RamsarSites.geojson">GeoJSON</a></td>
-</tr>
+    <tr>
+        <td>Administrative regions and populated places</td>
+        <td><a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/">Natural Earth</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map01_Regions.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map01_Regions.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_02_AdministrativeRegions.geojson">GeoJSON</a>, <a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_03_PopulatedPlaces.geojson">GeoJSON</a></td>
+    </tr>
+    <tr>
+        <td>Elevation</td>
+        <td><a href="http://hydrosheds.cr.usgs.gov/datadownload.php?reqdata=15demg">USGS HydroSHEDS</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map02_Elevation.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map02_Elevation.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_04_Elevation.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Rivers, basins, important wetlands</td>
+        <td><a href="http://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">Natural Earth</a>, <a href="http://hydrosheds.cr.usgs.gov/datadownload.php?reqdata=15bass">USGS HydroSHEDS</a>, <a href="https://rsis.ramsar.org/">Ramsar</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map03_MajorRiversBasinsWetlands.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map03_MajorRiversBasinsWetlands.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_05_Rivers.geojson">GeoJSON</a>, <a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_06_RiverBasins.geojson">GeoJSON</a>, <a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_07_RamsarSites.geojson">GeoJSON</a></td>
+    </tr>
+    <tr>
+        <td>Ecoregions</td>
+        <td><a href="http://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world">WWF</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map08_WWFEcoregions.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map08_WWFEcoregions.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_08_Ecoregions.geojson">GeoJSON</a></td>
+    </tr>
+    <tr>
+        <td>Anthropogenic biomes</td>
+        <td><a href="http://sedac.ciesin.columbia.edu/data/set/anthromes-anthropogenic-biomes-world-v1">CIESIN</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map06_AnthropogenicBiomes.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map06_AnthropogenicBiomes.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_09_AnthropogenicBiomes.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Land use 2001 (MODIS)</td>
+        <td><a href="https://lpdaac.usgs.gov/products/modis_products_table/mcd12q1">USGS</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map04_MCD12Q1LandUse2001.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map04_MCD12Q1LandUse2001.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_10_MD12Q1LandUse2001.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Land use 2012 (MODIS)</td>
+        <td><a href="https://lpdaac.usgs.gov/products/modis_products_table/mcd12q1">USGS</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map05_MCD12Q1LandUse2012.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map05_MCD12Q1LandUse2012.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_11_MD12Q1LandUse2012.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Land use change (MODIS)</td>
+        <td>Cadmus</td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map26_MCD12Q1LandUseChange2001-2012.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map26_MCD12Q1LandUseChange2001-2012.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_12_MD12Q1LandUseChange.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Land use 2000 (USGS)</td>
+        <td><a href="http://lca.usgs.gov/lca/africalulc/index.php">USGS</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map18_USGSLandUse2000.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map18_USGSLandUse2000.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_13_USGSLandUse2000.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Land use 2013 (USGS)</td>
+        <td><a href="http://lca.usgs.gov/lca/africalulc/index.php">USGS</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map19_USGSLandUse2013.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map19_USGSLandUse2013.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_14_USGSLandUse2013.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Land use change (USGS)</td>
+        <td>Cadmus</td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map23_USGSLandUseChange2000-2013.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map23_USGSLandUseChange2000-2013.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_15_USGSLandUseChange.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Soil carbon</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map07_SoilCarbon.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map07_SoilCarbon.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_16_SoilCarbon.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Annual preipitation</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map09_PrecipAnnual.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map09_PrecipAnnual.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_17_PrecipAnnual.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Coefficient of variation of precipitation</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map10_PrecipCV.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map10_PrecipCV.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_18_PrecipCV.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>% of precipitation variance explained by decadal</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map11_PrecipDecadalVar.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map11_PrecipDecadalVar.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_19_PrecipDecadal.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Flood frequency</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map12_FloodFreq.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map12_FloodFreq.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_20_FloodFreq.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Coefficient of variation of vegetation growth</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map13_NDVICV.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map13_NDVICV.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_21_NDVICV.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Malaria stability index</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map16_Malaria.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map16_Malaria.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_22_Malaria.zip">GeoTIFF.zip</a></td>
+    </tr>
+    <tr>
+        <td>Violent events</td>
+        <td><a href="http://www.acleddata.com/data/africa/">ACLED</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map27_ACLEDViolentEvents.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map27_ACLEDViolentEvents.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_23_ViolentEvents.geojson">GeoJSON</a></td>
+    </tr>
+    <tr>
+        <td>Fatalities from violent events</td>
+        <td><a href="http://www.acleddata.com/data/africa/">ACLED</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map28_ACLEDFatalities.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map28_ACLEDFatalities.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_24_ViolentFatalities.geojson">GeoJSON</a></td>
+    </tr>
+    <tr>
+        <td>Active mines</td>
+        <td>Cadmus</td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map22_GoldMines.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map22_GoldMines.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_25_Mines.geojson">GeoJSON</a></td>
+    </tr>
+    <tr>
+        <td>Overall vulnerability to climate change</td>
+        <td><a href="http://www.ciesin.org/documents/Mali-CV-Mapping-Revised-CLEARED.pdf">USAID</a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/static-maps/Map29_Vulnerability.jpg"><img src="https://raw.githubusercontent.com/cadmusgroup/USAID-Mali-ETOA/master/static-maps/thumbs/Map29_Vulnerability.jpg"></a></td>
+        <td><a href="https://github.com/cadmusgroup/USAID-Mali-ETOA/blob/master/gis-data/Mali_30_Vulnerability.zip">GeoTIFF.zip</a></td>
+    </tr>
 </tbody>
 </table>
 
